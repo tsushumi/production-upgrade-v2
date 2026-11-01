@@ -1,0 +1,27 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+.ok { color: #0a7a3d; }
+.bad { color: #b3261e; }
+.error { border: 1px solid #b3261e; }
+button {
+  background: #0a7a3d;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
